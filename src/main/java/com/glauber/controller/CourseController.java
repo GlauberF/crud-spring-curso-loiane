@@ -14,7 +14,7 @@ import java.util.List;
 @AllArgsConstructor // instancia todos os construtores
 public class CourseController {
 
-    final private CourseRepository courseRepository;
+    private final CourseRepository courseRepository;
 
     @GetMapping
     public List<Course> list() {
